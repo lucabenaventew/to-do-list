@@ -1,8 +1,8 @@
-import './modules/style.css';
-import './modules/linkedList-module.js';
+import './style.css';
+import './modules/linkedListmodule.js';
 
 const array = document.querySelector('.list');
-const { LinkedList } = require('./modules/linkedList-module.js');
+const { LinkedList } = require('./modules/linkedListmodule.js');
 
 const list = new LinkedList();
 

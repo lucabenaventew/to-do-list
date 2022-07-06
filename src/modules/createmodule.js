@@ -1,7 +1,7 @@
 const data = JSON.parse(localStorage.getItem('Data')) || [];
 const input = document.querySelector('.List-add');
 const array = document.querySelector('.List');
-const { LinkedList } = require('./linkedList-module.js');
+const { LinkedList } = require('./linkedListmodule.js');
 
 const list = new LinkedList();
 

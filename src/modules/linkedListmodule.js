@@ -1,4 +1,4 @@
-import Node from './task-module.js';
+import Node from './taskmodule.js';
 
 class LinkedList {
   constructor() {
