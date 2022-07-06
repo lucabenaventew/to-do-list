@@ -35,12 +35,12 @@ main .container .title button {
   border: none;
   cursor: pointer;
   font-size: 1rem;
-  transition: all 0.4s
+  transition: all 0.4s;
 }
 
 main .container .title button:hover {
   transform: rotateZ(90deg);
-} 
+}
 
 main .list-add {
   padding: 0.5rem;
