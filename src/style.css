@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #f8f8f8;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title p {
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li button {
+  cursor: pointer;
+  margin-left: auto;
+  border: none;
+  color: #fff;
+  width: 30px;
+}
+
+.title button {
+  display: block;
+  color: black;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+li {
+  padding: 10px;
+  display: flex;
+}
+
+.edit {
+  background-color: dimgrey;
+  background-image: url(./img/pen.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: all 0.4s;
+}
+
+.edit:hover {
+  opacity: 50%;
+}
+
+.edit:active {
+  background-color: yellow;
+}
+
+.edit span {
+  transform: translate(-50%, 50%);
+  position: absolute;
+  z-index: 1;
+}
+
+.edit span input {
+  padding: 3px;
+  color: white;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.delete {
+  background-color: lightcoral;
+  background-image: url(./img/trash-can.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: all 0.4s;
+}
+
+.delete:active {
+  background-color: rgb(226, 28, 28);
+}
+
+.delete:hover {
+  opacity: 50%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 40vw;
+  min-height: 100px;
+  box-shadow: 0.1px 0.1px 2px black;
+}
+
+.list-add {
+  border: none;
+  padding: 10px;
+}
+
+.list-clear {
+  border: 1px solid grey;
+  margin-top: auto;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.list-clear:hover {
+  background-color: darkgray;
+}
+
+.list-clear:active {
+  text-decoration: underline;
+}
+
+input:checked + label {
+  text-decoration: line-through;
+}
+
+label[contenteditable] {
+  background-color: #fdff8e;
+}
