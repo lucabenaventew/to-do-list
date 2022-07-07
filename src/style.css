@@ -87,7 +87,7 @@ li {
 
 .delete:hover {
   opacity: 50%;
-} 
+}
 
 .container {
   display: flex;
@@ -126,4 +126,3 @@ input:checked + label {
 label[contenteditable] {
   background-color: #fdff8e;
 }
-
