@@ -22,6 +22,14 @@ main {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+li button {
+  cursor: pointer;
+  margin-left: auto;
+  border: none;
+  color: #fff;
+  width: 30px;
+}
+
 .title button {
   display: block;
   color: black;
@@ -32,14 +40,6 @@ main {
 li {
   padding: 10px;
   display: flex;
-}
-
-li button {
-  cursor: pointer;
-  margin-left: auto;
-  border: none;
-  color: #fff;
-  width: 30px;
 }
 
 .edit {
@@ -126,3 +126,4 @@ input:checked + label {
 label[contenteditable] {
   background-color: #fdff8e;
 }
+

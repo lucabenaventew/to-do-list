@@ -51,4 +51,4 @@ export default function edit(item, list) {
       item.parentElement.children[1].removeAttribute('contenteditable');
     }
   });
-} 
+}
