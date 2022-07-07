@@ -5,4 +5,4 @@ export default class Node {
     this.index = index;
     this.next = next;
   }
-}
+} 
