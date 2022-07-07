@@ -109,6 +109,8 @@ li {
   padding: 10px;
   cursor: pointer;
   transition: all 0.4s;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
 .list-clear:hover {
