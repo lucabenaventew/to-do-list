@@ -29,11 +29,6 @@ $ cd to-do-list
 - Twitter: [@BenaventeLuca](https://twitter.com/BenaventeLuca)
 - LinkedIn: [lucabenaventew](https://linkedin.com/in/lucabenaventew/)
 
-👤 **@lucabenaventew**
-
-- GitHub: [@lucabenaventew](https://github.com/lucabenaventew)
-- Twitter: [@BenaventeLuca](https://twitter.com/BenaventeLuca)
-- LinkedIn: [lucabenaventew](https://linkedin.com/in/lucabenaventew/)
 
 
 ## 🤝 Collaborators
